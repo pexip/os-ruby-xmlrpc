@@ -1,6 +1,7 @@
 ruby-xmlrpc (0.3.0-2pexip1) pexip; urgency=medium
 
   * Prepare Pexip packaging
+  * Drop debhelper compat to 9 for bulding on older releases
 
  -- Steve McIntyre <steve.mcintyre@pexip.com>  Tue, 07 Jul 2020 10:58:06 +0000
 
