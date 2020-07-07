@@ -1,8 +1,9 @@
 Source: ruby-xmlrpc
 Section: ruby
 Priority: optional
-Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
-Uploaders: Antonio Terceiro <terceiro@debian.org>,
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Antonio Terceiro <terceiro@debian.org>,
            Chris Hofstaedtler <zeha@debian.org>
 Build-Depends: debhelper (>= 11~),
                gem2deb,
@@ -13,6 +14,7 @@ Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-xmlrpc
 Homepage: https://github.com/ruby/xmlrpc
 Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
+XS-Pexip-Upstream: http://mirror.einval.org/debian/ buster
 
 Package: ruby-xmlrpc
 Architecture: all
